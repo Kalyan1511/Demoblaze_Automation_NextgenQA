@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     pytest.main([
 
-        "-q",
+        "-v",
         "--tb=short",
         "-n=0",
 
@@ -42,6 +42,9 @@ if __name__ == "__main__":
 
         # Product Features
         "step_definitions/test_product_steps.py",
+
+        #failed test case
+        "step_definitions/test_failed_steps.py",
 
         # Cart Features
         "step_definitions/test_cart_steps.py",
